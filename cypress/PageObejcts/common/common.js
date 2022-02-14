@@ -11,7 +11,6 @@ export class Common{
         }
     }
 
-
     assert(sel){
         return {
             contains(text){

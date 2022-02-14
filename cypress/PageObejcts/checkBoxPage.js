@@ -10,7 +10,6 @@ export class CheckBoxPage extends Common{
     passCheckBoxPage(){
         this.do(this.plus_btn).click()
         this.do(this.checkbox_btn).click()
-
         this.assert("#result > :nth-child(1)").contains("You have selected")
     }
 }

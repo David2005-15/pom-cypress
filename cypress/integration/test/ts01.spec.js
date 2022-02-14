@@ -19,6 +19,5 @@ describe("TestSuite01", function () {
     it('TestCase02', function () {
         mainPage.openCheckBoxPage()
         checkBoxPage.passCheckBoxPage()
-
     });
 })

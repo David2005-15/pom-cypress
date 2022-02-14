@@ -16,6 +16,14 @@ export class Common{
         return {
             contains(text){
                 cy.get(sel).contains(text)
+            },
+
+            haveText(text){
+                cy.get(sel).should('have.text', text)
+            },
+
+            beVisible(){
+                cy.get(sel).should('be.visible')
             }
         }
     }

@@ -1,4 +1,4 @@
-import {Common} from "./common/common";
+import { Common } from "./common/common";
 
 export class CheckBoxPage extends Common{
     constructor() {
